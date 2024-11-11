@@ -102,7 +102,7 @@ header .navlist a:hover{color: #0ef0e4;transition: all 0.3s cubic-bezier(0, 0, 0
   height: 100px;
   border-radius: 100%;
   background-color: #fff;
-  border: solid 2px #DB9A38;
+  border: solid 2px #0b0c10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,6 +125,7 @@ header .navlist a:hover{color: #0ef0e4;transition: all 0.3s cubic-bezier(0, 0, 0
   left: 60%;
   transform: translate(-50%, -60%);
   width: 48%;
+  display: none;
 }
 .slick-dots {
   position: absolute;
@@ -138,8 +139,9 @@ header .navlist a:hover{color: #0ef0e4;transition: all 0.3s cubic-bezier(0, 0, 0
   list-style: none;
   text-align: center;
 }
-
-
+.slick-arrow:after, .slick-arrow:after {content: "";width: 8px;height: 8px;border: solid #6D6D6D;border-width: 2px 2px 0 0;display: block;position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.slick-prev:after{transform: translate(2%, -60%) rotate(220deg);}
+.slick-next:after{transform: translate(2%, -60%) rotate(45deg);}
 .testimonial .container .testi-all-img{display: grid; grid-template-columns: repeat(auto-fill, minmax(10%, 1fr));column-gap: 50px;margin: 70px 0 50px;}
 .testimonial .left-line{width: 70px;}
 
@@ -297,6 +299,8 @@ footer .underline{width: 100px;}
   .about .main-img{margin-bottom: 15px;}
   .banner{position: static;} 
 }
+
+
 
 
 
