@@ -9,14 +9,16 @@
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header class="header">
     <div class="container">
       <nav class="navlist">
-        <div class="nav-logo">
+        <div class="nav-logo" data-aos="flip-up">
           <img src="./inspiring-wave-images/Home-page/IW-LOGO-WHITE.png" alt="Logo" />
         </div>
         <div class="nav">
@@ -35,7 +37,7 @@
         <div class="banner-img">
           <img src="./inspiring-wave-images/Home-page/home-banner-img.jpg" alt="banner-image">
         </div>
-        <div class="banner-content">
+        <div class="banner-content" data-aos="fade-down" data-aos-duration="3000">
           <h3 class="heading3">Creative mind, creative works.</h3>
           <h1 class="heading1">We are digital <br> agency.</h1>
           <div class="banner-btn">
@@ -44,7 +46,7 @@
         </div>
       </section>
       <section class="tech">
-        <div class="container">
+        <div class="container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <div class="tech-box">
             <div class="tech-logo">
               <img src="./inspiring-wave-images/Home-page/4Artboard-1.png" alt="">
@@ -74,12 +76,12 @@
       </section>
       <section class="Service">
         <div class="container">
-          <div class="top-content">
+          <div class="top-content" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="underline"></div>
             <h2 class="heading2">Services.</h2>
           </div>
           <h3 class="heading3">Our Services for clients</h3>
-          <div class="all-service">
+          <div class="all-service" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="inner-box">
               <div class="Service-box">
                 <div class="Service-box-img">
@@ -147,13 +149,13 @@
       </section>
       <section class="about">
         <div class="container">
-          <div class="top-content">
+          <div class="top-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <div class="underline"></div>
             <h2 class="heading2">About.</h2>
           </div>
           <h3 class="heading3">Our Services for clients</h3>
         </div>
-          <div class="about-main_wrapper">
+          <div class="about-main_wrapper" data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
             <div class="main-img">
               <img src="./inspiring-wave-images/Home-page/service-img-main.jpg" alt="Service main Image">
               <div class="about-image-text">
@@ -179,7 +181,7 @@
             </div>
           </div>
           <div class="container">
-            <div class="about-sub_wrapper">
+            <div class="about-sub_wrapper" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
               <div class="sub-wrapper-box">
                 <h4 class="heading4">Who we are</h4>
                 <h5 class="heading5">We are Inspiring Wave, and we bring you powerful advantages of technology and digital marketing to help you navigate your digital transformation by establishing a distinct market position.</h5>
@@ -198,7 +200,7 @@
       </section>
       <section class="testimonial">
         <div class="container">
-          <div class="top-content">
+          <div class="top-content" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
             <div class="underline"></div>
             <h2 class="heading2">Testimonials.</h2>
           </div>
@@ -293,7 +295,7 @@
      <div class="container">
       <div class="fotter-mainwrapper">
         <div class="footer-box">
-          <div class="footer-logo">
+          <div class="footer-logo" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
             <img src="./inspiring-wave-images/Home-page/footer-logo.png" alt="Footer Logo">
           </div>
           <h5 class="heading5">We are more than a digital agency</h5>
@@ -350,7 +352,9 @@
     <script type="module" src="main.js"></script> 
     <script src="common.js"></script>
   </body>
-  
+  <script>
+    AOS.init();
+  </script>
 
 <!-- <canvas id="container3D"></canvas> -->
 
