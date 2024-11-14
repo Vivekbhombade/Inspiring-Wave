@@ -208,7 +208,7 @@ footer .underline{width: 100px;}
 
 /* ======================================================Service page======================================== */
 .services-main .banner .banner-content{position: absolute;top: 40%;left: 40%;transform: translate(40%,40% );}
-.services-main  .top-content{display: block;text-align: center;}
+.services-main  .top-content, .works-main .top-content{display: block;text-align: center;}
 .services-main .Service .top-content .heading2{margin-bottom: 30px;}
 .services-main .peaple{background-image: url(./inspiring-wave-images/service-page/service-peaple-img.jpg);background-attachment: fixed; background-position: center; background-size: cover; }
 .services-main .peaple .enq-main {padding: 150px 100px;}
@@ -222,6 +222,27 @@ footer .underline{width: 100px;}
 .services-main .we-work .work-bottom-con{display: grid;grid-template-columns: 1fr 1fr;column-gap: 30px;margin-top: 40px;}
 .services-main .build-product .container-sub .do-box{padding-left: 60px;padding-right: 0;}
 
+/* ================================================Works page========================================= */
+.works-main .buisness{background-color: #0b0c10;padding-top: 100px;padding-bottom: 50px;}
+.works-main .banner .banner-content{position: absolute;top: 40%;left: 40%;transform: translate(40%,40% );}
+/* .works-main .buisness .inner-img img{width: 20%;} */
+.works-main .buisness .buisness-main-wrapper{display: grid;grid-template-columns: 1fr 1fr;column-gap: 20px;}
+.works-main .buisness .buisness-main-wrapper .ineer-wrapper{display: grid;column-gap: 20px;grid-template-columns: 20% auto;padding: 40px 20px 40px 40px;}
+.works-main .buisness .buisness-main-wrapper .ineer-wrapper .ineer-content{margin-top: 30px;}
+.works-main .buisness .heading2{margin-bottom: 30px;}
+.works-main .idea-img{background-color: #0b0c10;padding-top: 100px;padding-bottom: 50px;}
+.works-main .idea-img .idea-all-images{display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 20px;row-gap: 20px;}
+.load-more-btn{padding: 10px;border: 2px solid #38908a;width: max-content;margin-top: 40px !important;text-transform: uppercase;display: block;margin: 0 auto;}
+.works-main .idea-img .heading5{margin-bottom: 60px;padding: 40px;text-align: center;}
+
+/* ================================================Contact Page========================================= */
+.contact-main .banner .banner-content{position: absolute;top: 40%;left: 40%;transform: translate(40%,40% );}
+.contact-main .message-send{background-color: #0b0c10;padding-top: 100px;padding-bottom: 50px;}
+.contact-main .message-send .top-content{display: block;text-align: center;}
+.contact-main .message-send .top-content .heading2{margin-bottom: 20px;}
+.contact-main  .inquiry input, .contact-main  .inquiry textarea{width: 100%;padding: 10px;margin-top: 10px;margin-bottom: 10px;}
+.contact-main  .inquiry label{color: #fff;font-size: 20px;}
+.contact-main .inquiry .enq-main .banner-btn{margin-top: 20px !important;}
 /* ==============================================Responsive========================================= */
 @media screen and (max-width:1700px) {
   .tech .underline{width: 25%;}
@@ -232,6 +253,7 @@ footer .underline{width: 100px;}
   .about .about-main_wrapper .heading2{margin-bottom: 10px;}
   /* ========About page======== */
   /* =========Service page=============== */
+  /* ============Works page============== */
   
 }
 
@@ -250,6 +272,11 @@ footer .underline{width: 100px;}
   /* About page */
 
    /* =========Service page=============== */
+
+   /* ============Works page============== */
+  .works-main .buisness .buisness-main-wrapper .ineer-wrapper{padding: 30px 20px 30px 30px;}
+  .works-main .idea-img{padding-top: 70px;}
+  .works-main .idea-img .heading5{margin-bottom: 40px;}
 }
 
 @media screen and (max-width:1300px){
@@ -272,6 +299,9 @@ footer .underline{width: 100px;}
    .services-main .we-work .top-content .heading2{margin-top: 20px;}
    .services-main .what-do .container-sub .do-box .heading2{margin-bottom: 40px;}
    .services-main .what-do, .services-main .we-work{padding-top: 70px;padding-bottom: 70px;}
+
+  /* ============Works page============== */
+  .works-main .buisness .heading2{margin-bottom: 20px;}
 }
 
 @media screen and (max-width:1279px){
@@ -297,6 +327,14 @@ footer .underline{width: 100px;}
    .services-main .heading2{font-size: 42px;line-height: 30px;}
    .services-main .what-do .container-sub .do-box{padding-right: 40px;}
    .services-main .build-product .container-sub .do-box{padding-right: 0;padding-left: 40px;}
+
+     /* ============Works page============== */
+     .works-main .buisness{padding-bottom: 0;padding-top: 70px;}
+     .works-main .idea-img .heading5{padding-top: 0;}
+    
+    /* ==============================contact page============================ */
+    .contact-main .inquiry label{font-size: 16px;}
+    .contact-main .inquiry input, .contact-main .inquiry textarea{margin-top: 5px;}
   
 }
 
@@ -337,6 +375,9 @@ footer .underline{width: 100px;}
    /* =========Service page=============== */
    .services-main .heading2{font-size: 30px;}
 
+  /* ============Works page============== */
+  .works-main .buisness .buisness-main-wrapper .ineer-wrapper .ineer-content{margin-top: 10px;}
+  .works-main .buisness .buisness-main-wrapper .ineer-wrapper {padding: 20px 20px 20px 20px;}
 }
 
 @media screen and (max-width:767px){
@@ -381,6 +422,7 @@ footer .underline{width: 100px;}
   .about-main .solution .container-sub .sol-box{margin-bottom: 30px;}
   .about-main .inquiry .enq-main{padding: 60px 40px;}
   .about-main .solution{padding-bottom: 20px;}
+  .about-main .banner .banner-content, .services-main .banner .banner-content {left: 32%;}
 
    /* =========Service page=============== */
    .services-main .peaple .enq-main{padding: 100px 0;}
@@ -391,6 +433,19 @@ footer .underline{width: 100px;}
    .services-main .build-product .container-sub .do-box{padding-left: 0;}
    .services-main .what-do, .services-main .we-work {padding-top: 30px;padding-bottom: 30px;}
    .inquiry .enq-main{padding: 50px 40px;}
+
+  /* ============Works page============== */
+  .works-main .buisness .buisness-main-wrapper{grid-template-columns: 1fr;}
+  .works-main .idea-img .heading5{padding: 0;text-align: left;}
+  .works-main .idea-img .idea-all-images{grid-template-columns: 1fr;}
+  .works-main .banner .banner-content{top: 30%;left: 25%;}
+  .works-main .buisness .heading2 {margin-bottom: 10px;}
+  .works-main .buisness .heading3{line-height: 20px;}
+  .works-main .idea-img, .works-main .buisness{padding-top: 50px;}
+
+  /* ==========================================Contact Page================================= */
+  .contact-main .banner .banner-content{left: 22%;}
+  .contact-main .inquiry label{font-size: 14px;}
 }
 
 
