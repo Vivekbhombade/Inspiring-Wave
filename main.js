@@ -22,7 +22,7 @@ const directionalLight = new THREE.DirectionalLight(0xffffff, 10);
 directionalLight.position.set(700, 500, 500);
 scene.add(directionalLight);
 
-// Load 3D Model
+// add here 3D Model
 let model;
 let mixer;
 const loader = new GLTFLoader();

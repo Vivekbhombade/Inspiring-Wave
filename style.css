@@ -179,14 +179,13 @@ footer .underline{width: 100px;}
   position: fixed;
   inset: 0;
   pointer-events: none;
-  display: none;
+  
 }
 
 /* =================================================About page========================================= */
 .about-main .banner .banner-content{position: absolute;top: 40%;left: 40%;transform: translate(40%,40% );}
 .about-main .technical{background-color: #0b0c10;padding-top: 100px;padding-bottom: 25px;}
 .about-main .technical .container-sub .tech-logo img{width: 20%;}
-/* .about-main .container{padding-left: 18%;padding-right: 10%;} */
 .about-main .technical .container-sub .heading5{text-align: center;}
 .about-main .technical .tech-main{display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 10px;}
 .about-main .technical .tech-main .tech-box{padding: 50px 40px;}
@@ -225,7 +224,6 @@ footer .underline{width: 100px;}
 /* ================================================Works page========================================= */
 .works-main .buisness{background-color: #0b0c10;padding-top: 100px;padding-bottom: 50px;}
 .works-main .banner .banner-content{position: absolute;top: 40%;left: 40%;transform: translate(40%,40% );}
-/* .works-main .buisness .inner-img img{width: 20%;} */
 .works-main .buisness .buisness-main-wrapper{display: grid;grid-template-columns: 1fr 1fr;column-gap: 20px;}
 .works-main .buisness .buisness-main-wrapper .ineer-wrapper{display: grid;column-gap: 20px;grid-template-columns: 20% auto;padding: 40px 20px 40px 40px;}
 .works-main .buisness .buisness-main-wrapper .ineer-wrapper .ineer-content{margin-top: 30px;}
@@ -252,7 +250,9 @@ footer .underline{width: 100px;}
   .heading5{line-height: 22px;}
   .about .about-main_wrapper .heading2{margin-bottom: 10px;}
   /* ========About page======== */
+
   /* =========Service page=============== */
+  
   /* ============Works page============== */
   
 }
